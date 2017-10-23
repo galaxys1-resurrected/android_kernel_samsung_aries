@@ -19,7 +19,7 @@
 
 #include <mach/gpio-aries.h>
 
-#include "aries.h"
+#include <board/aries.h>
 
 static struct aries_bt_lpm {
 	struct hrtimer bt_lpm_timer;

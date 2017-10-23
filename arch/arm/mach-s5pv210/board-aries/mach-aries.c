@@ -101,7 +101,7 @@
 #include <linux/kernel_sec_common.h>
 #endif
 
-#include "aries.h"
+#include <board/aries.h>
 
 #undef pr_debug
 #define pr_debug pr_info
