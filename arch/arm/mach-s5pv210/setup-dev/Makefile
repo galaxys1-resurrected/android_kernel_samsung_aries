@@ -1,0 +1,12 @@
+obj-$(CONFIG_S5PV210_SETUP_FB)		+= setup-fb.o
+obj-$(CONFIG_S5PV210_SETUP_FIMC)	+= setup-fimc.o
+obj-$(CONFIG_CPU_S5PV210)	+= setup-i2c0.o
+obj-$(CONFIG_S5PV210_SETUP_I2C1) 	+= setup-i2c1.o
+obj-$(CONFIG_S5PV210_SETUP_I2C2) 	+= setup-i2c2.o
+obj-$(CONFIG_S5PV210_SETUP_IDE)		+= setup-ide.o
+obj-$(CONFIG_S5PV210_SETUP_KEYPAD)	+= setup-keypad.o
+obj-$(CONFIG_S5PV210_SETUP_SDHCI)       += setup-sdhci.o
+obj-$(CONFIG_S5PV210_SETUP_SDHCI_GPIO)	+= setup-sdhci-gpio.o
+obj-$(CONFIG_S5PV210_SETUP_FIMC0)	+= setup-fimc0.o
+obj-$(CONFIG_S5PV210_SETUP_FIMC1)	+= setup-fimc1.o
+obj-$(CONFIG_S5PV210_SETUP_FIMC2)	+= setup-fimc2.o

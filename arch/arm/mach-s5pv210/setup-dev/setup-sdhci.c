@@ -34,7 +34,9 @@
 #include <linux/err.h>
 #endif
 
+#ifdef CONFIG_MACH_HERRING
 #include "herring.h"
+#endif
 
 /* clock sources for the mmc bus clock, order as for the ctrl2[5..4] */
 

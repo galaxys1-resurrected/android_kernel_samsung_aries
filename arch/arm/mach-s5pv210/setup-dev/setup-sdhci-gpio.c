@@ -28,7 +28,9 @@
 #include <mach/gpio-p1.h>
 #endif
 
+#ifdef CONFIG_MACH_HERRING
 #include "herring.h"
+#endif
 
 #if defined (CONFIG_SAMSUNG_GALAXYS) || defined(CONFIG_SAMSUNG_FASCINATE)
 #	define DRVSTR S3C_GPIO_DRVSTR_3X
