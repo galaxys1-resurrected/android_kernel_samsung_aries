@@ -41,7 +41,7 @@
 #include <plat/gpio-cfg.h>
 #include <mach/regs-clock.h>
 #include "wm8994_samsung.h"
-#include "../../../arch/arm/mach-s5pv210/herring.h"
+#include "../../../arch/arm/mach-s5pv210/include/board/herring.h"
 
 #ifdef CONFIG_SND_WM8994_EXTENSIONS
 #include "wm8994_extensions.h"
